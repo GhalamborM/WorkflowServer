@@ -1,7 +1,7 @@
 /*
 Company: OptimaJet
 Project: WorkflowServer PostgreSQL
-Version: 9.0
+Version: 9.1
 File: WorkflowServerScripts.sql
 */
 
