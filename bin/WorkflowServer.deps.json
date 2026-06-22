@@ -6,19 +6,19 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "WorkflowServer/9.1.0": {
+      "WorkflowServer/9.2.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Microsoft.Extensions.Configuration.Binder": "8.0.2",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "8.0.0",
           "Microsoft.Extensions.Configuration.Json": "9.0.5",
-          "WorkflowEngine.NET-Server": "9.1.0",
-          "WorkflowEngine.NETCore-Core": "20.0.8",
-          "OptimaJet.WorkflowServer": "9.1.0.0",
-          "WorkflowServer.Migrator.MSSQL": "9.1.0.0",
-          "WorkflowServer.Migrator.MySQL": "9.1.0.0",
-          "WorkflowServer.Migrator.Oracle": "9.1.0.0",
-          "WorkflowServer.Migrator.PostgreSQL": "9.1.0.0"
+          "WorkflowEngine.NET-Server": "9.2.0",
+          "WorkflowEngine.NETCore-Core": "21.1.2",
+          "OptimaJet.WorkflowServer": "9.2.0.0",
+          "WorkflowServer.Migrator.MSSQL": "9.2.0.0",
+          "WorkflowServer.Migrator.MySQL": "9.2.0.0",
+          "WorkflowServer.Migrator.Oracle": "9.2.0.0",
+          "WorkflowServer.Migrator.PostgreSQL": "9.2.0.0"
         },
         "runtime": {
           "WorkflowServer.dll": {}
@@ -54,30 +54,31 @@
           }
         }
       },
-      "Azure.Core/1.46.1": {
+      "Azure.Core/1.51.1": {
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "9.0.5",
-          "System.ClientModel": "1.4.1",
-          "System.Memory.Data": "6.0.1"
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.5",
+          "System.ClientModel": "1.9.0",
+          "System.Memory.Data": "10.0.1"
         },
         "runtime": {
           "lib/net8.0/Azure.Core.dll": {
-            "assemblyVersion": "1.46.1.0",
-            "fileVersion": "1.4600.125.25909"
+            "assemblyVersion": "1.51.1.0",
+            "fileVersion": "1.5100.126.10405"
           }
         }
       },
-      "Azure.Identity/1.14.0": {
+      "Azure.Identity/1.19.0": {
         "dependencies": {
-          "Azure.Core": "1.46.1",
-          "Microsoft.Identity.Client": "4.72.1",
-          "Microsoft.Identity.Client.Extensions.Msal": "4.71.1",
-          "System.Memory": "4.5.5"
+          "Azure.Core": "1.51.1",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3",
+          "Microsoft.Extensions.Hosting.Abstractions": "10.0.3",
+          "Microsoft.Identity.Client": "4.83.1",
+          "Microsoft.Identity.Client.Extensions.Msal": "4.83.1"
         },
         "runtime": {
           "lib/net8.0/Azure.Identity.dll": {
-            "assemblyVersion": "1.14.0.0",
-            "fileVersion": "1.1400.25.26304"
+            "assemblyVersion": "1.19.0.0",
+            "fileVersion": "1.1900.26.16104"
           }
         }
       },
@@ -140,8 +141,8 @@
       "FluentMigrator/7.1.0": {
         "dependencies": {
           "FluentMigrator.Abstractions": "7.1.0",
-          "Microsoft.Extensions.DependencyInjection": "9.0.3",
-          "Microsoft.Extensions.Options": "9.0.2"
+          "Microsoft.Extensions.DependencyInjection": "10.0.5",
+          "Microsoft.Extensions.Options": "10.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/FluentMigrator.dll": {
@@ -235,7 +236,7 @@
           "FluentMigrator.Runner.SQLite": "7.1.0",
           "FluentMigrator.Runner.Snowflake": "7.1.0",
           "FluentMigrator.Runner.SqlServer": "7.1.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.5"
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/FluentMigrator.Runner.dll": {
@@ -248,10 +249,10 @@
         "dependencies": {
           "FluentMigrator": "7.1.0",
           "FluentMigrator.Abstractions": "7.1.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.5",
-          "Microsoft.Extensions.DependencyInjection": "9.0.3",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3",
+          "Microsoft.Extensions.DependencyInjection": "10.0.5",
           "Microsoft.Extensions.Logging": "9.0.2",
-          "Microsoft.Extensions.Options": "9.0.2"
+          "Microsoft.Extensions.Options": "10.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/FluentMigrator.Runner.Core.dll": {
@@ -277,7 +278,7 @@
           "FirebirdSql.Data.FirebirdClient": "10.3.2",
           "FluentMigrator": "7.1.0",
           "FluentMigrator.Runner.Core": "7.1.0",
-          "Microsoft.Extensions.Options": "9.0.2"
+          "Microsoft.Extensions.Options": "10.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/FluentMigrator.Runner.Firebird.dll": {
@@ -420,7 +421,7 @@
       "Microsoft.AspNetCore.Connections.Abstractions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Features": "8.0.0",
-          "System.IO.Pipelines": "9.0.5"
+          "System.IO.Pipelines": "10.0.5"
         }
       },
       "Microsoft.AspNetCore.OpenApi/8.0.6": {
@@ -437,7 +438,7 @@
       "Microsoft.AspNetCore.SignalR.Common/8.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Connections.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Options": "9.0.2"
+          "Microsoft.Extensions.Options": "10.0.3"
         }
       },
       "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson/8.0.0": {
@@ -452,11 +453,11 @@
           }
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/9.0.5": {
+      "Microsoft.Bcl.AsyncInterfaces/10.0.5": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
-            "assemblyVersion": "9.0.0.5",
-            "fileVersion": "9.0.525.21509"
+            "assemblyVersion": "10.0.0.5",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
@@ -689,14 +690,14 @@
       "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.SqlClient/6.0.1": {
         "dependencies": {
-          "Azure.Identity": "1.14.0",
+          "Azure.Identity": "1.19.0",
           "Microsoft.Bcl.Cryptography": "8.0.0",
           "Microsoft.Data.SqlClient.SNI.runtime": "6.0.2",
           "Microsoft.Extensions.Caching.Memory": "8.0.1",
           "Microsoft.IdentityModel.JsonWebTokens": "8.14.0",
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.5.0",
           "Microsoft.SqlServer.Server": "1.0.0",
-          "System.Configuration.ConfigurationManager": "8.0.1",
+          "System.Configuration.ConfigurationManager": "10.0.5",
           "System.Security.Cryptography.Pkcs": "8.0.1"
         },
         "runtime": {
@@ -817,7 +818,7 @@
       "Microsoft.EntityFrameworkCore.Relational/8.0.20": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.20",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.5"
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
@@ -829,7 +830,7 @@
       "Microsoft.Extensions.AmbientMetadata.Application/8.10.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "9.0.5",
-          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "10.0.3",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
         },
         "runtime": {
@@ -841,16 +842,16 @@
       },
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "9.0.5"
+          "Microsoft.Extensions.Primitives": "10.0.3"
         }
       },
       "Microsoft.Extensions.Caching.Memory/8.0.1": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
-          "Microsoft.Extensions.Options": "9.0.2",
-          "Microsoft.Extensions.Primitives": "9.0.5"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3",
+          "Microsoft.Extensions.Options": "10.0.3",
+          "Microsoft.Extensions.Primitives": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {
@@ -861,7 +862,7 @@
       },
       "Microsoft.Extensions.Compliance.Abstractions/8.10.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
           "Microsoft.Extensions.ObjectPool": "8.0.10"
         },
         "runtime": {
@@ -873,8 +874,8 @@
       },
       "Microsoft.Extensions.Configuration/9.0.5": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.5",
-          "Microsoft.Extensions.Primitives": "9.0.5"
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3",
+          "Microsoft.Extensions.Primitives": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
@@ -883,20 +884,20 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/9.0.5": {
+      "Microsoft.Extensions.Configuration.Abstractions/10.0.3": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "9.0.5"
+          "Microsoft.Extensions.Primitives": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.525.21509"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.326.7603"
           }
         }
       },
       "Microsoft.Extensions.Configuration.Binder/8.0.2": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.5"
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
@@ -908,16 +909,16 @@
       "Microsoft.Extensions.Configuration.EnvironmentVariables/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "9.0.5",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.5"
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3"
         }
       },
       "Microsoft.Extensions.Configuration.FileExtensions/9.0.5": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "9.0.5",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.5",
-          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3",
+          "Microsoft.Extensions.FileProviders.Abstractions": "10.0.3",
           "Microsoft.Extensions.FileProviders.Physical": "9.0.5",
-          "Microsoft.Extensions.Primitives": "9.0.5"
+          "Microsoft.Extensions.Primitives": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
@@ -929,10 +930,10 @@
       "Microsoft.Extensions.Configuration.Json/9.0.5": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "9.0.5",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3",
           "Microsoft.Extensions.Configuration.FileExtensions": "9.0.5",
-          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.5",
-          "System.Text.Json": "9.0.5"
+          "Microsoft.Extensions.FileProviders.Abstractions": "10.0.3",
+          "System.Text.Json": "10.0.5"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
@@ -941,28 +942,28 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection/9.0.3": {
+      "Microsoft.Extensions.DependencyInjection/10.0.5": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.325.11113"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.3": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.9": {
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.325.11113"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.926.27113"
           }
         }
       },
       "Microsoft.Extensions.DependencyInjection.AutoActivation/8.10.0": {
         "dependencies": {
-          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1"
+          "Microsoft.Extensions.Hosting.Abstractions": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.AutoActivation.dll": {
@@ -982,7 +983,7 @@
       "Microsoft.Extensions.Diagnostics/8.0.1": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "9.0.5",
-          "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "10.0.3",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
         },
         "runtime": {
@@ -992,21 +993,22 @@
           }
         }
       },
-      "Microsoft.Extensions.Diagnostics.Abstractions/8.0.1": {
+      "Microsoft.Extensions.Diagnostics.Abstractions/10.0.3": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
-          "Microsoft.Extensions.Options": "9.0.2"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+          "Microsoft.Extensions.Options": "10.0.3",
+          "System.Diagnostics.DiagnosticSource": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.326.7603"
           }
         }
       },
       "Microsoft.Extensions.Diagnostics.ExceptionSummarization/8.10.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll": {
@@ -1016,22 +1018,22 @@
         }
       },
       "Microsoft.Extensions.Features/8.0.0": {},
-      "Microsoft.Extensions.FileProviders.Abstractions/9.0.5": {
+      "Microsoft.Extensions.FileProviders.Abstractions/10.0.3": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "9.0.5"
+          "Microsoft.Extensions.Primitives": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.525.21509"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.326.7603"
           }
         }
       },
       "Microsoft.Extensions.FileProviders.Physical/9.0.5": {
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.5",
+          "Microsoft.Extensions.FileProviders.Abstractions": "10.0.3",
           "Microsoft.Extensions.FileSystemGlobbing": "9.0.5",
-          "Microsoft.Extensions.Primitives": "9.0.5"
+          "Microsoft.Extensions.Primitives": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
@@ -1048,29 +1050,29 @@
           }
         }
       },
-      "Microsoft.Extensions.Hosting.Abstractions/8.0.1": {
+      "Microsoft.Extensions.Hosting.Abstractions/10.0.3": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.5",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
-          "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.1",
-          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.5",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2"
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "10.0.3",
+          "Microsoft.Extensions.FileProviders.Abstractions": "10.0.3",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.326.7603"
           }
         }
       },
       "Microsoft.Extensions.Http/8.0.1": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.5",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
           "Microsoft.Extensions.Diagnostics": "8.0.1",
           "Microsoft.Extensions.Logging": "9.0.2",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
-          "Microsoft.Extensions.Options": "9.0.2"
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3",
+          "Microsoft.Extensions.Options": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Http.dll": {
@@ -1123,9 +1125,9 @@
       },
       "Microsoft.Extensions.Logging/9.0.2": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "9.0.3",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
-          "Microsoft.Extensions.Options": "9.0.2"
+          "Microsoft.Extensions.DependencyInjection": "10.0.5",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3",
+          "Microsoft.Extensions.Options": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Logging.dll": {
@@ -1134,27 +1136,27 @@
           }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/9.0.2": {
+      "Microsoft.Extensions.Logging.Abstractions/10.0.3": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
-          "System.Diagnostics.DiagnosticSource": "9.0.2"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+          "System.Diagnostics.DiagnosticSource": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.326.7603"
           }
         }
       },
       "Microsoft.Extensions.Logging.Configuration/8.0.1": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "9.0.5",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3",
           "Microsoft.Extensions.Configuration.Binder": "8.0.2",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
           "Microsoft.Extensions.Logging": "9.0.2",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
-          "Microsoft.Extensions.Options": "9.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3",
+          "Microsoft.Extensions.Options": "10.0.3",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
         },
         "runtime": {
@@ -1172,32 +1174,32 @@
           }
         }
       },
-      "Microsoft.Extensions.Options/9.0.2": {
+      "Microsoft.Extensions.Options/10.0.3": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
-          "Microsoft.Extensions.Primitives": "9.0.5"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+          "Microsoft.Extensions.Primitives": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.326.7603"
           }
         }
       },
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3",
           "Microsoft.Extensions.Configuration.Binder": "8.0.2",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
-          "Microsoft.Extensions.Options": "9.0.2",
-          "Microsoft.Extensions.Primitives": "9.0.5"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+          "Microsoft.Extensions.Options": "10.0.3",
+          "Microsoft.Extensions.Primitives": "10.0.3"
         }
       },
-      "Microsoft.Extensions.Primitives/9.0.5": {
+      "Microsoft.Extensions.Primitives/10.0.3": {
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.525.21509"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.326.7603"
           }
         }
       },
@@ -1235,9 +1237,9 @@
       "Microsoft.Extensions.Telemetry.Abstractions/8.10.0": {
         "dependencies": {
           "Microsoft.Extensions.Compliance.Abstractions": "8.10.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3",
           "Microsoft.Extensions.ObjectPool": "8.0.10",
-          "Microsoft.Extensions.Options": "9.0.2"
+          "Microsoft.Extensions.Options": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Telemetry.Abstractions.dll": {
@@ -1246,27 +1248,28 @@
           }
         }
       },
-      "Microsoft.Identity.Client/4.72.1": {
+      "Microsoft.Identity.Client/4.83.1": {
         "dependencies": {
           "Microsoft.IdentityModel.Abstractions": "8.14.0",
-          "System.Diagnostics.DiagnosticSource": "9.0.2"
+          "System.Diagnostics.DiagnosticSource": "10.0.3",
+          "System.ValueTuple": "4.5.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Identity.Client.dll": {
-            "assemblyVersion": "4.72.1.0",
-            "fileVersion": "4.72.1.0"
+            "assemblyVersion": "4.83.1.0",
+            "fileVersion": "4.83.1.0"
           }
         }
       },
-      "Microsoft.Identity.Client.Extensions.Msal/4.71.1": {
+      "Microsoft.Identity.Client.Extensions.Msal/4.83.1": {
         "dependencies": {
-          "Microsoft.Identity.Client": "4.72.1",
-          "System.Security.Cryptography.ProtectedData": "8.0.0"
+          "Microsoft.Identity.Client": "4.83.1",
+          "System.Security.Cryptography.ProtectedData": "10.0.5"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll": {
-            "assemblyVersion": "4.71.1.0",
-            "fileVersion": "4.71.1.0"
+            "assemblyVersion": "4.83.1.0",
+            "fileVersion": "4.83.1.0"
           }
         }
       },
@@ -1325,7 +1328,7 @@
       },
       "Microsoft.IdentityModel.Tokens/8.14.0": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3",
           "Microsoft.IdentityModel.Logging": "8.14.0"
         },
         "runtime": {
@@ -1345,7 +1348,7 @@
       },
       "Microsoft.Net.Http.Headers/8.0.20": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "9.0.5"
+          "Microsoft.Extensions.Primitives": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Net.Http.Headers.dll": {
@@ -1415,7 +1418,7 @@
       },
       "MongoDB.Driver/2.30.0": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3",
           "MongoDB.Bson": "2.30.0",
           "MongoDB.Driver.Core": "2.30.0",
           "MongoDB.Libmongocrypt": "1.12.0"
@@ -1431,11 +1434,11 @@
         "dependencies": {
           "AWSSDK.SecurityToken": "3.7.100.14",
           "DnsClient": "1.6.1",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3",
           "MongoDB.Bson": "2.30.0",
           "MongoDB.Libmongocrypt": "1.12.0",
-          "SharpCompress": "0.30.1",
-          "Snappier": "1.0.0",
+          "SharpCompress": "0.48.0",
+          "Snappier": "1.3.1",
           "System.Buffers": "4.5.1",
           "ZstdSharp.Port": "0.7.3"
         },
@@ -1473,8 +1476,8 @@
       },
       "MySqlConnector/2.4.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/MySqlConnector.dll": {
@@ -1589,7 +1592,7 @@
       },
       "Novell.Directory.Ldap.NETStandard/3.6.0": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2"
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3"
         },
         "runtime": {
           "lib/net5.0/Novell.Directory.Ldap.NETStandard.dll": {
@@ -1600,7 +1603,7 @@
       },
       "Npgsql/8.0.3": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2"
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3"
         },
         "runtime": {
           "lib/net8.0/Npgsql.dll": {
@@ -1625,8 +1628,8 @@
       },
       "OpenIddict.Abstractions/7.1.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
-          "Microsoft.Extensions.Primitives": "9.0.5",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+          "Microsoft.Extensions.Primitives": "10.0.3",
           "Microsoft.IdentityModel.Tokens": "8.14.0"
         },
         "runtime": {
@@ -1685,7 +1688,7 @@
       },
       "OpenIddict.Client.SystemIntegration/7.1.0": {
         "dependencies": {
-          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "10.0.3",
           "Microsoft.Net.Http.Headers": "8.0.20",
           "OpenIddict.Client": "7.1.0"
         },
@@ -1725,7 +1728,7 @@
         "dependencies": {
           "Microsoft.Extensions.Caching.Memory": "8.0.1",
           "Microsoft.Extensions.Logging": "9.0.2",
-          "Microsoft.Extensions.Options": "9.0.2",
+          "Microsoft.Extensions.Options": "10.0.3",
           "OpenIddict.Abstractions": "7.1.0"
         },
         "runtime": {
@@ -1855,7 +1858,7 @@
       "OptimaJet.DataEngine/1.2.0": {
         "dependencies": {
           "Dapper.Oracle.StrongName": "2.0.3",
-          "Microsoft.Bcl.AsyncInterfaces": "9.0.5",
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.5",
           "OptimaJet.SqlKata": "1.0.0",
           "OptimaJet.SqlKata.Execution": "1.0.0"
         },
@@ -1872,7 +1875,7 @@
           "Microsoft.IdentityModel.JsonWebTokens": "8.14.0",
           "OptimaJet.DataEngine.Sql": "1.2.0",
           "System.IdentityModel.Tokens.Jwt": "8.10.0",
-          "System.Runtime.Caching": "8.0.1",
+          "System.Runtime.Caching": "10.0.5",
           "System.Text.RegularExpressions": "4.3.1"
         },
         "runtime": {
@@ -1899,7 +1902,7 @@
           "Dapper.StrongName": "2.1.15",
           "OptimaJet.DataEngine.Sql": "1.2.0",
           "Oracle.ManagedDataAccess.Core": "3.21.100",
-          "System.Text.Json": "9.0.5"
+          "System.Text.Json": "10.0.5"
         },
         "runtime": {
           "lib/netstandard2.1/OptimaJet.DataEngine.Oracle.dll": {
@@ -1912,7 +1915,7 @@
         "dependencies": {
           "Npgsql": "8.0.3",
           "OptimaJet.DataEngine.Sql": "1.2.0",
-          "System.Text.Json": "9.0.5"
+          "System.Text.Json": "10.0.5"
         },
         "runtime": {
           "lib/netstandard2.0/OptimaJet.DataEngine.Postgres.dll": {
@@ -1956,94 +1959,93 @@
           }
         }
       },
-      "OptimaJet.Workflow.Api/20.0.8": {
+      "OptimaJet.Workflow.Api/21.1.2": {
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "8.0.6",
-          "WorkflowEngine.NETCore-Core": "20.0.8",
-          "WorkflowEngine.NETCore-Migrator": "20.0.8"
+          "WorkflowEngine.NETCore-Core": "21.1.2",
+          "WorkflowEngine.NETCore-Migrator": "21.1.2"
         },
         "runtime": {
           "lib/net8.0/OptimaJet.Workflow.Api.dll": {
-            "assemblyVersion": "20.0.8.0",
-            "fileVersion": "20.0.8.0"
+            "assemblyVersion": "21.1.2.0",
+            "fileVersion": "21.1.2.0"
           }
         }
       },
-      "OptimaJet.Workflow.Api.Mongo/20.0.8": {
+      "OptimaJet.Workflow.Api.Mongo/21.1.2": {
         "dependencies": {
-          "OptimaJet.Workflow.Api": "20.0.8",
-          "WorkflowEngine.NETCore-ProviderForMongoDB": "20.0.8"
+          "OptimaJet.Workflow.Api": "21.1.2",
+          "WorkflowEngine.NETCore-ProviderForMongoDB": "21.1.2"
         },
         "runtime": {
           "lib/net8.0/OptimaJet.Workflow.Api.Mongo.dll": {
-            "assemblyVersion": "20.0.8.0",
-            "fileVersion": "20.0.8.0"
+            "assemblyVersion": "21.1.2.0",
+            "fileVersion": "21.1.2.0"
           }
         }
       },
-      "OptimaJet.Workflow.Api.Mssql/20.0.8": {
+      "OptimaJet.Workflow.Api.Mssql/21.1.2": {
         "dependencies": {
           "OptimaJet.DataEngine.Mssql": "1.2.0",
-          "OptimaJet.Workflow.Api.Sql": "20.0.8",
-          "System.Text.Json": "9.0.5",
-          "WorkflowEngine.NETCore-ProviderForMSSQL": "20.0.8"
+          "OptimaJet.Workflow.Api.Sql": "21.1.2",
+          "WorkflowEngine.NETCore-ProviderForMSSQL": "21.1.2"
         },
         "runtime": {
           "lib/net8.0/OptimaJet.Workflow.Api.Mssql.dll": {
-            "assemblyVersion": "20.0.8.0",
-            "fileVersion": "20.0.8.0"
+            "assemblyVersion": "21.1.2.0",
+            "fileVersion": "21.1.2.0"
           }
         }
       },
-      "OptimaJet.Workflow.Api.Mysql/20.0.8": {
+      "OptimaJet.Workflow.Api.Mysql/21.1.2": {
         "dependencies": {
           "OptimaJet.DataEngine.Mysql": "1.2.0",
-          "OptimaJet.Workflow.Api.Sql": "20.0.8",
-          "WorkflowEngine.NETCore-ProviderForMySQL": "20.0.8"
+          "OptimaJet.Workflow.Api.Sql": "21.1.2",
+          "WorkflowEngine.NETCore-ProviderForMySQL": "21.1.2"
         },
         "runtime": {
           "lib/net8.0/OptimaJet.Workflow.Api.Mysql.dll": {
-            "assemblyVersion": "20.0.8.0",
-            "fileVersion": "20.0.8.0"
+            "assemblyVersion": "21.1.2.0",
+            "fileVersion": "21.1.2.0"
           }
         }
       },
-      "OptimaJet.Workflow.Api.Oracle/20.0.8": {
+      "OptimaJet.Workflow.Api.Oracle/21.1.2": {
         "dependencies": {
           "OptimaJet.DataEngine.Oracle": "1.2.0",
-          "OptimaJet.Workflow.Api.Sql": "20.0.8",
-          "WorkflowEngine.NETCore-ProviderForOracle": "20.0.8"
+          "OptimaJet.Workflow.Api.Sql": "21.1.2",
+          "WorkflowEngine.NETCore-ProviderForOracle": "21.1.2"
         },
         "runtime": {
           "lib/net8.0/OptimaJet.Workflow.Api.Oracle.dll": {
-            "assemblyVersion": "20.0.8.0",
-            "fileVersion": "20.0.8.0"
+            "assemblyVersion": "21.1.2.0",
+            "fileVersion": "21.1.2.0"
           }
         }
       },
-      "OptimaJet.Workflow.Api.Postgres/20.0.8": {
+      "OptimaJet.Workflow.Api.Postgres/21.1.2": {
         "dependencies": {
           "OptimaJet.DataEngine.Postgres": "1.2.0",
-          "OptimaJet.Workflow.Api.Sql": "20.0.8",
-          "WorkflowEngine.NETCore-ProviderForPostgreSQL": "20.0.8"
+          "OptimaJet.Workflow.Api.Sql": "21.1.2",
+          "WorkflowEngine.NETCore-ProviderForPostgreSQL": "21.1.2"
         },
         "runtime": {
           "lib/net8.0/OptimaJet.Workflow.Api.Postgres.dll": {
-            "assemblyVersion": "20.0.8.0",
-            "fileVersion": "20.0.8.0"
+            "assemblyVersion": "21.1.2.0",
+            "fileVersion": "21.1.2.0"
           }
         }
       },
-      "OptimaJet.Workflow.Api.Sql/20.0.8": {
+      "OptimaJet.Workflow.Api.Sql/21.1.2": {
         "dependencies": {
           "OptimaJet.DataEngine": "1.2.0",
           "OptimaJet.DataEngine.Sql": "1.2.0",
-          "OptimaJet.Workflow.Api": "20.0.8"
+          "OptimaJet.Workflow.Api": "21.1.2"
         },
         "runtime": {
           "lib/net8.0/OptimaJet.Workflow.Api.Sql.dll": {
-            "assemblyVersion": "20.0.8.0",
-            "fileVersion": "20.0.8.0"
+            "assemblyVersion": "21.1.2.0",
+            "fileVersion": "21.1.2.0"
           }
         }
       },
@@ -2078,8 +2080,8 @@
       },
       "Polly.Extensions/8.4.2": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
-          "Microsoft.Extensions.Options": "9.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3",
+          "Microsoft.Extensions.Options": "10.0.3",
           "Polly.Core": "8.4.2"
         },
         "runtime": {
@@ -2188,9 +2190,9 @@
       },
       "Serilog.Extensions.Hosting/8.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
-          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
+          "Microsoft.Extensions.Hosting.Abstractions": "10.0.3",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3",
           "Serilog": "4.3.0",
           "Serilog.Extensions.Logging": "8.0.0"
         },
@@ -2274,7 +2276,7 @@
       "Serilog.Sinks.EventLog/4.0.0": {
         "dependencies": {
           "Serilog": "4.3.0",
-          "System.Diagnostics.EventLog": "8.0.1"
+          "System.Diagnostics.EventLog": "10.0.5"
         },
         "runtime": {
           "lib/net8.0/Serilog.Sinks.EventLog.dll": {
@@ -2305,11 +2307,11 @@
           }
         }
       },
-      "SharpCompress/0.30.1": {
+      "SharpCompress/0.48.0": {
         "runtime": {
-          "lib/net5.0/SharpCompress.dll": {
-            "assemblyVersion": "0.30.1.0",
-            "fileVersion": "0.30.1.0"
+          "lib/net8.0/SharpCompress.dll": {
+            "assemblyVersion": "0.48.0.0",
+            "fileVersion": "0.48.0.0"
           }
         }
       },
@@ -2321,11 +2323,11 @@
           }
         }
       },
-      "Snappier/1.0.0": {
+      "Snappier/1.3.1": {
         "runtime": {
-          "lib/net5.0/Snappier.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "lib/net8.0/Snappier.dll": {
+            "assemblyVersion": "1.3.1.0",
+            "fileVersion": "1.3.1.0"
           }
         }
       },
@@ -2349,15 +2351,17 @@
         }
       },
       "System.Buffers/4.5.1": {},
-      "System.ClientModel/1.4.1": {
+      "System.ClientModel/1.9.0": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
-          "System.Memory.Data": "6.0.1"
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.3",
+          "Microsoft.Extensions.Hosting.Abstractions": "10.0.3",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.3",
+          "System.Memory.Data": "10.0.1"
         },
         "runtime": {
           "lib/net8.0/System.ClientModel.dll": {
-            "assemblyVersion": "1.4.1.0",
-            "fileVersion": "1.400.125.25905"
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.900.26.7706"
           }
         }
       },
@@ -2405,15 +2409,15 @@
         }
       },
       "System.ComponentModel.Annotations/5.0.0": {},
-      "System.Configuration.ConfigurationManager/8.0.1": {
+      "System.Configuration.ConfigurationManager/10.0.5": {
         "dependencies": {
-          "System.Diagnostics.EventLog": "8.0.1",
-          "System.Security.Cryptography.ProtectedData": "8.0.0"
+          "System.Diagnostics.EventLog": "10.0.5",
+          "System.Security.Cryptography.ProtectedData": "10.0.5"
         },
         "runtime": {
           "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
@@ -2433,39 +2437,39 @@
           "System.Runtime": "4.3.1"
         }
       },
-      "System.Diagnostics.DiagnosticSource/9.0.2": {
+      "System.Diagnostics.DiagnosticSource/10.0.3": {
         "runtime": {
           "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.326.7603"
           }
         }
       },
-      "System.Diagnostics.EventLog/8.0.1": {
+      "System.Diagnostics.EventLog/10.0.5": {
         "runtime": {
           "lib/net8.0/System.Diagnostics.EventLog.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
           }
         },
         "runtimeTargets": {
           "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll": {
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
           },
           "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1024.46610"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
       "System.Diagnostics.PerformanceCounter/6.0.1": {
         "dependencies": {
-          "System.Configuration.ConfigurationManager": "8.0.1"
+          "System.Configuration.ConfigurationManager": "10.0.5"
         },
         "runtime": {
           "lib/net6.0/System.Diagnostics.PerformanceCounter.dll": {
@@ -2625,11 +2629,11 @@
           "System.Runtime": "4.3.1"
         }
       },
-      "System.IO.Pipelines/9.0.5": {
+      "System.IO.Pipelines/10.0.5": {
         "runtime": {
           "lib/net8.0/System.IO.Pipelines.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.525.21509"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
@@ -2643,11 +2647,14 @@
         }
       },
       "System.Memory/4.5.5": {},
-      "System.Memory.Data/6.0.1": {
+      "System.Memory.Data/10.0.1": {
+        "dependencies": {
+          "System.Text.Json": "10.0.5"
+        },
         "runtime": {
-          "lib/net6.0/System.Memory.Data.dll": {
-            "assemblyVersion": "6.0.0.1",
-            "fileVersion": "6.0.3624.51421"
+          "lib/net8.0/System.Memory.Data.dll": {
+            "assemblyVersion": "10.0.0.1",
+            "fileVersion": "10.0.125.57005"
           }
         }
       },
@@ -2751,22 +2758,22 @@
           "Microsoft.NETCore.Targets": "1.1.3"
         }
       },
-      "System.Runtime.Caching/8.0.1": {
+      "System.Runtime.Caching/10.0.5": {
         "dependencies": {
-          "System.Configuration.ConfigurationManager": "8.0.1"
+          "System.Configuration.ConfigurationManager": "10.0.5"
         },
         "runtime": {
           "lib/net8.0/System.Runtime.Caching.dll": {
-            "assemblyVersion": "8.0.0.1",
-            "fileVersion": "8.0.1024.46610"
+            "assemblyVersion": "10.0.0.5",
+            "fileVersion": "10.0.526.15411"
           }
         },
         "runtimeTargets": {
           "runtimes/win/lib/net8.0/System.Runtime.Caching.dll": {
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "8.0.0.1",
-            "fileVersion": "8.0.1024.46610"
+            "assemblyVersion": "10.0.0.5",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
@@ -2925,11 +2932,11 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
-      "System.Security.Cryptography.ProtectedData/8.0.0": {
+      "System.Security.Cryptography.ProtectedData/10.0.5": {
         "runtime": {
           "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
@@ -3001,31 +3008,31 @@
           "System.Text.Encoding": "4.3.0"
         }
       },
-      "System.Text.Encodings.Web/9.0.5": {
+      "System.Text.Encodings.Web/10.0.5": {
         "runtime": {
           "lib/net8.0/System.Text.Encodings.Web.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.525.21509"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
           }
         },
         "runtimeTargets": {
           "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll": {
             "rid": "browser",
             "assetType": "runtime",
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.525.21509"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
-      "System.Text.Json/9.0.5": {
+      "System.Text.Json/10.0.5": {
         "dependencies": {
-          "System.IO.Pipelines": "9.0.5",
-          "System.Text.Encodings.Web": "9.0.5"
+          "System.IO.Pipelines": "10.0.5",
+          "System.Text.Encodings.Web": "10.0.5"
         },
         "runtime": {
           "lib/net8.0/System.Text.Json.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.525.21509"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
@@ -3121,152 +3128,154 @@
           }
         }
       },
-      "WorkflowEngine.NETCore-BpmnPlugin/20.0.8": {
+      "WorkflowEngine.NETCore-BpmnPlugin/21.1.2": {
         "dependencies": {
-          "WorkflowEngine.NETCore-Core": "20.0.8"
+          "WorkflowEngine.NETCore-Core": "21.1.2"
         },
         "runtime": {
           "lib/netstandard2.0/OptimaJet.Workflow.BpmnPlugin.dll": {
-            "assemblyVersion": "20.0.0.0",
-            "fileVersion": "20.0.0.0"
+            "assemblyVersion": "21.1.0.0",
+            "fileVersion": "21.1.0.0"
           }
         }
       },
-      "WorkflowEngine.NETCore-Core/20.0.8": {
+      "WorkflowEngine.NETCore-Core/21.1.2": {
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "9.0.5",
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.5",
           "Microsoft.CodeAnalysis.CSharp": "4.1.0",
           "Microsoft.CodeAnalysis.CSharp.Scripting": "4.1.0",
           "Microsoft.Extensions.DependencyModel": "8.0.2",
           "Newtonsoft.Json": "13.0.3",
           "System.Collections.Specialized": "4.3.0",
           "System.Security.Cryptography.Csp": "4.3.0",
-          "System.Text.Json": "9.0.5",
+          "System.Text.Json": "10.0.5",
           "System.Text.RegularExpressions": "4.3.1",
           "System.Xml.XmlDocument": "4.3.0",
           "ThomasLevesque.WeakEvent": "4.1.0"
         },
         "runtime": {
           "lib/netstandard2.0/OptimaJet.Workflow.Core.dll": {
-            "assemblyVersion": "20.0.0.0",
-            "fileVersion": "20.0.0.0"
+            "assemblyVersion": "21.1.0.0",
+            "fileVersion": "21.1.0.0"
           }
         }
       },
-      "WorkflowEngine.NETCore-FilesPlugin/20.0.8": {
+      "WorkflowEngine.NETCore-FilesPlugin/21.1.2": {
         "dependencies": {
           "FluentFTP": "32.4.3",
           "SSH.NET": "2020.0.2",
           "SharpZipLib": "1.4.2",
           "System.Net.Security": "4.3.2",
-          "WorkflowEngine.NETCore-Core": "20.0.8"
+          "WorkflowEngine.NETCore-Core": "21.1.2"
         },
         "runtime": {
           "lib/netstandard2.0/OptimaJet.Workflow.FilesPlugin.dll": {
-            "assemblyVersion": "20.0.0.0",
-            "fileVersion": "20.0.0.0"
+            "assemblyVersion": "21.1.0.0",
+            "fileVersion": "21.1.0.0"
           }
         }
       },
-      "WorkflowEngine.NETCore-Migrator/20.0.8": {
+      "WorkflowEngine.NETCore-Migrator/21.1.2": {
         "dependencies": {
-          "Azure.Identity": "1.14.0",
+          "Azure.Identity": "1.19.0",
           "FluentMigrator": "7.1.0",
           "FluentMigrator.Runner": "7.1.0",
-          "Microsoft.Extensions.DependencyInjection": "9.0.3",
-          "Microsoft.Identity.Client": "4.72.1",
+          "Microsoft.Extensions.DependencyInjection": "10.0.5",
+          "Microsoft.Identity.Client": "4.83.1",
           "Microsoft.IdentityModel.JsonWebTokens": "8.14.0",
           "System.IdentityModel.Tokens.Jwt": "8.10.0",
-          "System.Runtime.Caching": "8.0.1",
-          "WorkflowEngine.NETCore-Core": "20.0.8"
+          "System.Runtime.Caching": "10.0.5",
+          "WorkflowEngine.NETCore-Core": "21.1.2"
         },
         "runtime": {
           "lib/netstandard2.0/OptimaJet.Workflow.Migrator.dll": {
-            "assemblyVersion": "20.0.0.0",
-            "fileVersion": "20.0.0.0"
+            "assemblyVersion": "21.1.0.0",
+            "fileVersion": "21.1.0.0"
           }
         }
       },
-      "WorkflowEngine.NETCore-ProviderForMongoDB/20.0.8": {
+      "WorkflowEngine.NETCore-ProviderForMongoDB/21.1.2": {
         "dependencies": {
           "MongoDB.Driver": "2.30.0",
-          "WorkflowEngine.NETCore-Core": "20.0.8"
+          "SharpCompress": "0.48.0",
+          "Snappier": "1.3.1",
+          "WorkflowEngine.NETCore-Core": "21.1.2"
         },
         "runtime": {
           "lib/netstandard2.0/OptimaJet.Workflow.MongoDB.dll": {
-            "assemblyVersion": "20.0.0.0",
-            "fileVersion": "20.0.0.0"
+            "assemblyVersion": "21.1.0.0",
+            "fileVersion": "21.1.0.0"
           }
         }
       },
-      "WorkflowEngine.NETCore-ProviderForMSSQL/20.0.8": {
+      "WorkflowEngine.NETCore-ProviderForMSSQL/21.1.2": {
         "dependencies": {
-          "Azure.Identity": "1.14.0",
+          "Azure.Identity": "1.19.0",
           "Microsoft.Data.SqlClient": "6.0.1",
-          "Microsoft.Identity.Client": "4.72.1",
+          "Microsoft.Identity.Client": "4.83.1",
           "Microsoft.IdentityModel.JsonWebTokens": "8.14.0",
           "System.IdentityModel.Tokens.Jwt": "8.10.0",
-          "System.Runtime.Caching": "8.0.1",
-          "WorkflowEngine.NETCore-Core": "20.0.8",
-          "WorkflowEngine.NETCore-Migrator": "20.0.8"
+          "System.Runtime.Caching": "10.0.5",
+          "WorkflowEngine.NETCore-Core": "21.1.2",
+          "WorkflowEngine.NETCore-Migrator": "21.1.2"
         },
         "runtime": {
           "lib/netstandard2.0/OptimaJet.Workflow.MSSQL.dll": {
-            "assemblyVersion": "20.0.0.0",
-            "fileVersion": "20.0.0.0"
+            "assemblyVersion": "21.1.0.0",
+            "fileVersion": "21.1.0.0"
           }
         }
       },
-      "WorkflowEngine.NETCore-ProviderForMySQL/20.0.8": {
+      "WorkflowEngine.NETCore-ProviderForMySQL/21.1.2": {
         "dependencies": {
           "FluentMigrator.Runner.MySql": "7.1.0",
           "MySqlConnector": "2.4.0",
-          "WorkflowEngine.NETCore-Core": "20.0.8",
-          "WorkflowEngine.NETCore-Migrator": "20.0.8"
+          "WorkflowEngine.NETCore-Core": "21.1.2",
+          "WorkflowEngine.NETCore-Migrator": "21.1.2"
         },
         "runtime": {
           "lib/netstandard2.0/OptimaJet.Workflow.MySQL.dll": {
-            "assemblyVersion": "20.0.0.0",
-            "fileVersion": "20.0.0.0"
+            "assemblyVersion": "21.1.0.0",
+            "fileVersion": "21.1.0.0"
           }
         }
       },
-      "WorkflowEngine.NETCore-ProviderForOracle/20.0.8": {
+      "WorkflowEngine.NETCore-ProviderForOracle/21.1.2": {
         "dependencies": {
           "FluentMigrator.Runner.Oracle": "7.1.0",
           "Oracle.ManagedDataAccess.Core": "3.21.100",
-          "WorkflowEngine.NETCore-Core": "20.0.8",
-          "WorkflowEngine.NETCore-Migrator": "20.0.8"
+          "WorkflowEngine.NETCore-Core": "21.1.2",
+          "WorkflowEngine.NETCore-Migrator": "21.1.2"
         },
         "runtime": {
           "lib/netstandard2.1/OptimaJet.Workflow.Oracle.dll": {
-            "assemblyVersion": "20.0.0.0",
-            "fileVersion": "20.0.0.0"
+            "assemblyVersion": "21.1.0.0",
+            "fileVersion": "21.1.0.0"
           }
         }
       },
-      "WorkflowEngine.NETCore-ProviderForPostgreSQL/20.0.8": {
+      "WorkflowEngine.NETCore-ProviderForPostgreSQL/21.1.2": {
         "dependencies": {
           "FluentMigrator.Runner.Postgres": "7.1.0",
           "Npgsql": "8.0.3",
-          "WorkflowEngine.NETCore-Core": "20.0.8",
-          "WorkflowEngine.NETCore-Migrator": "20.0.8"
+          "WorkflowEngine.NETCore-Core": "21.1.2",
+          "WorkflowEngine.NETCore-Migrator": "21.1.2"
         },
         "runtime": {
           "lib/netstandard2.0/OptimaJet.Workflow.PostgreSQL.dll": {
-            "assemblyVersion": "20.0.0.0",
-            "fileVersion": "20.0.0.0"
+            "assemblyVersion": "21.1.0.0",
+            "fileVersion": "21.1.0.0"
           }
         }
       },
-      "WorkflowEngine.NETCore-RealTimeTrackingPlugin/20.0.8": {
+      "WorkflowEngine.NETCore-RealTimeTrackingPlugin/21.1.2": {
         "dependencies": {
-          "WorkflowEngine.NETCore-Core": "20.0.8"
+          "WorkflowEngine.NETCore-Core": "21.1.2"
         },
         "runtime": {
           "lib/net8.0/OptimaJet.Workflow.RealTimeTrackingPlugin.dll": {
-            "assemblyVersion": "20.0.0.0",
-            "fileVersion": "20.0.0.0"
+            "assemblyVersion": "21.1.0.0",
+            "fileVersion": "21.1.0.0"
           }
         }
       },
@@ -3278,7 +3287,7 @@
           }
         }
       },
-      "OptimaJet.Logging/9.1.0": {
+      "OptimaJet.Logging/9.2.0": {
         "dependencies": {
           "Serilog": "4.3.0",
           "Serilog.AspNetCore": "8.0.3",
@@ -3289,53 +3298,68 @@
           "Serilog.Sinks.EventLog": "4.0.0",
           "Serilog.Sinks.File": "7.0.0",
           "Serilog.Sinks.PeriodicBatching": "5.0.0",
-          "WorkflowEngine.NETCore-Core": "20.0.8"
+          "WorkflowEngine.NETCore-Core": "21.1.2"
         },
         "runtime": {
-          "OptimaJet.Logging.dll": {}
+          "OptimaJet.Logging.dll": {
+            "assemblyVersion": "9.2.0",
+            "fileVersion": "9.2.0"
+          }
         }
       },
-      "OptimaJet.WorkflowServer.Migrations.MySql/9.1.0": {
+      "OptimaJet.WorkflowServer.Migrations.MySql/9.2.0": {
         "dependencies": {
           "FluentMigrator": "7.1.0",
           "FluentMigrator.Runner": "7.1.0",
-          "WorkflowEngine.NETCore-Migrator": "20.0.8"
+          "WorkflowEngine.NETCore-Migrator": "21.1.2"
         },
         "runtime": {
-          "WorkflowServer.Migrator.MySQL.dll": {}
+          "WorkflowServer.Migrator.MySQL.dll": {
+            "assemblyVersion": "9.2.0",
+            "fileVersion": "9.2.0"
+          }
         }
       },
-      "OptimaJet.WorkflowServer.Migrations.Oracle/9.1.0": {
+      "OptimaJet.WorkflowServer.Migrations.Oracle/9.2.0": {
         "dependencies": {
           "FluentMigrator": "7.1.0",
           "FluentMigrator.Runner": "7.1.0",
-          "WorkflowEngine.NETCore-Migrator": "20.0.8"
+          "WorkflowEngine.NETCore-Migrator": "21.1.2"
         },
         "runtime": {
-          "WorkflowServer.Migrator.Oracle.dll": {}
+          "WorkflowServer.Migrator.Oracle.dll": {
+            "assemblyVersion": "9.2.0",
+            "fileVersion": "9.2.0"
+          }
         }
       },
-      "OptimaJet.WorkflowServer.Migrations.PostgreSql/9.1.0": {
+      "OptimaJet.WorkflowServer.Migrations.PostgreSql/9.2.0": {
         "dependencies": {
           "FluentMigrator": "7.1.0",
           "FluentMigrator.Runner": "7.1.0",
-          "WorkflowEngine.NETCore-Migrator": "20.0.8"
+          "WorkflowEngine.NETCore-Migrator": "21.1.2"
         },
         "runtime": {
-          "WorkflowServer.Migrator.PostgreSQL.dll": {}
+          "WorkflowServer.Migrator.PostgreSQL.dll": {
+            "assemblyVersion": "9.2.0",
+            "fileVersion": "9.2.0"
+          }
         }
       },
-      "OptimaJet.WorkflowServer.Migrations.SqlServer/9.1.0": {
+      "OptimaJet.WorkflowServer.Migrations.SqlServer/9.2.0": {
         "dependencies": {
           "FluentMigrator": "7.1.0",
           "FluentMigrator.Runner": "7.1.0",
-          "WorkflowEngine.NETCore-Migrator": "20.0.8"
+          "WorkflowEngine.NETCore-Migrator": "21.1.2"
         },
         "runtime": {
-          "WorkflowServer.Migrator.MSSQL.dll": {}
+          "WorkflowServer.Migrator.MSSQL.dll": {
+            "assemblyVersion": "9.2.0",
+            "fileVersion": "9.2.0"
+          }
         }
       },
-      "WorkflowEngine.NET-Server/9.1.0": {
+      "WorkflowEngine.NET-Server/9.2.0": {
         "dependencies": {
           "AngleSharp": "0.13.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.12",
@@ -3345,80 +3369,83 @@
           "Microsoft.EntityFrameworkCore.InMemory": "8.0.12",
           "Microsoft.Extensions.Configuration": "9.0.5",
           "Microsoft.Extensions.Configuration.Json": "9.0.5",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.9",
           "Nito.AsyncEx": "5.1.2",
           "Novell.Directory.Ldap.NETStandard": "3.6.0",
           "OpenIddict.AspNetCore": "7.1.0",
           "OpenIddict.EntityFrameworkCore": "7.1.0",
-          "OptimaJet.Logging": "9.1.0",
-          "OptimaJet.Workflow.Api": "20.0.8",
-          "OptimaJet.Workflow.Api.Mongo": "20.0.8",
-          "OptimaJet.Workflow.Api.Mssql": "20.0.8",
-          "OptimaJet.Workflow.Api.Mysql": "20.0.8",
-          "OptimaJet.Workflow.Api.Oracle": "20.0.8",
-          "OptimaJet.Workflow.Api.Postgres": "20.0.8",
-          "OptimaJet.WorkflowServer.Migrations.MySql": "9.1.0",
-          "OptimaJet.WorkflowServer.Migrations.Oracle": "9.1.0",
-          "OptimaJet.WorkflowServer.Migrations.PostgreSql": "9.1.0",
-          "OptimaJet.WorkflowServer.Migrations.SqlServer": "9.1.0",
-          "WorkflowEngine.NETCore-BpmnPlugin": "20.0.8",
-          "WorkflowEngine.NETCore-Core": "20.0.8",
-          "WorkflowEngine.NETCore-FilesPlugin": "20.0.8",
-          "WorkflowEngine.NETCore-ProviderForMSSQL": "20.0.8",
-          "WorkflowEngine.NETCore-ProviderForMongoDB": "20.0.8",
-          "WorkflowEngine.NETCore-ProviderForMySQL": "20.0.8",
-          "WorkflowEngine.NETCore-ProviderForOracle": "20.0.8",
-          "WorkflowEngine.NETCore-ProviderForPostgreSQL": "20.0.8",
-          "WorkflowEngine.NETCore-RealTimeTrackingPlugin": "20.0.8"
+          "OptimaJet.Logging": "9.2.0",
+          "OptimaJet.Workflow.Api": "21.1.2",
+          "OptimaJet.Workflow.Api.Mongo": "21.1.2",
+          "OptimaJet.Workflow.Api.Mssql": "21.1.2",
+          "OptimaJet.Workflow.Api.Mysql": "21.1.2",
+          "OptimaJet.Workflow.Api.Oracle": "21.1.2",
+          "OptimaJet.Workflow.Api.Postgres": "21.1.2",
+          "OptimaJet.WorkflowServer.Migrations.MySql": "9.2.0",
+          "OptimaJet.WorkflowServer.Migrations.Oracle": "9.2.0",
+          "OptimaJet.WorkflowServer.Migrations.PostgreSql": "9.2.0",
+          "OptimaJet.WorkflowServer.Migrations.SqlServer": "9.2.0",
+          "WorkflowEngine.NETCore-BpmnPlugin": "21.1.2",
+          "WorkflowEngine.NETCore-Core": "21.1.2",
+          "WorkflowEngine.NETCore-FilesPlugin": "21.1.2",
+          "WorkflowEngine.NETCore-ProviderForMSSQL": "21.1.2",
+          "WorkflowEngine.NETCore-ProviderForMongoDB": "21.1.2",
+          "WorkflowEngine.NETCore-ProviderForMySQL": "21.1.2",
+          "WorkflowEngine.NETCore-ProviderForOracle": "21.1.2",
+          "WorkflowEngine.NETCore-ProviderForPostgreSQL": "21.1.2",
+          "WorkflowEngine.NETCore-RealTimeTrackingPlugin": "21.1.2"
         },
         "runtime": {
-          "OptimaJet.WorkflowServer.dll": {}
+          "OptimaJet.WorkflowServer.dll": {
+            "assemblyVersion": "9.2.0",
+            "fileVersion": "9.2.0"
+          }
         }
       },
-      "OptimaJet.WorkflowServer/9.1.0.0": {
+      "OptimaJet.WorkflowServer/9.2.0.0": {
         "runtime": {
           "OptimaJet.WorkflowServer.dll": {
-            "assemblyVersion": "9.1.0.0",
-            "fileVersion": "9.1.0.0"
+            "assemblyVersion": "9.2.0.0",
+            "fileVersion": "9.2.0.0"
           }
         }
       },
-      "WorkflowServer.Migrator.MSSQL/9.1.0.0": {
+      "WorkflowServer.Migrator.MSSQL/9.2.0.0": {
         "runtime": {
           "WorkflowServer.Migrator.MSSQL.dll": {
-            "assemblyVersion": "9.1.0.0",
-            "fileVersion": "9.1.0.0"
+            "assemblyVersion": "9.2.0.0",
+            "fileVersion": "9.2.0.0"
           }
         }
       },
-      "WorkflowServer.Migrator.MySQL/9.1.0.0": {
+      "WorkflowServer.Migrator.MySQL/9.2.0.0": {
         "runtime": {
           "WorkflowServer.Migrator.MySQL.dll": {
-            "assemblyVersion": "9.1.0.0",
-            "fileVersion": "9.1.0.0"
+            "assemblyVersion": "9.2.0.0",
+            "fileVersion": "9.2.0.0"
           }
         }
       },
-      "WorkflowServer.Migrator.Oracle/9.1.0.0": {
+      "WorkflowServer.Migrator.Oracle/9.2.0.0": {
         "runtime": {
           "WorkflowServer.Migrator.Oracle.dll": {
-            "assemblyVersion": "9.1.0.0",
-            "fileVersion": "9.1.0.0"
+            "assemblyVersion": "9.2.0.0",
+            "fileVersion": "9.2.0.0"
           }
         }
       },
-      "WorkflowServer.Migrator.PostgreSQL/9.1.0.0": {
+      "WorkflowServer.Migrator.PostgreSQL/9.2.0.0": {
         "runtime": {
           "WorkflowServer.Migrator.PostgreSQL.dll": {
-            "assemblyVersion": "9.1.0.0",
-            "fileVersion": "9.1.0.0"
+            "assemblyVersion": "9.2.0.0",
+            "fileVersion": "9.2.0.0"
           }
         }
       }
     }
   },
   "libraries": {
-    "WorkflowServer/9.1.0": {
+    "WorkflowServer/9.2.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -3444,19 +3471,19 @@
       "path": "awssdk.securitytoken/3.7.100.14",
       "hashPath": "awssdk.securitytoken.3.7.100.14.nupkg.sha512"
     },
-    "Azure.Core/1.46.1": {
+    "Azure.Core/1.51.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iE5DPOlGsN5kCkF4gN+vasN1RihO0Ypie92oQ5tohQYiokmnrrhLnee+3zcE8n7vB6ZAzhPTfUGAEXX/qHGkYA==",
-      "path": "azure.core/1.46.1",
-      "hashPath": "azure.core.1.46.1.nupkg.sha512"
+      "sha512": "sha512-JRANrRvN5O5FFRh+pMUb8qqWU7jBQ39qXEbVr7Rkb1/s7rqc6RSzVHKGBz5Ro1gDy2WSGjG5YEOJKpPIBiCMcA==",
+      "path": "azure.core/1.51.1",
+      "hashPath": "azure.core.1.51.1.nupkg.sha512"
     },
-    "Azure.Identity/1.14.0": {
+    "Azure.Identity/1.19.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xQ6mpNhifb8W/KG2BclhbJWAupvE3JF8lPEBF8t59Q5sc1yN0Ci+dvS0qXtc6m9auxwYpmc8rhOmK541dcGwmA==",
-      "path": "azure.identity/1.14.0",
-      "hashPath": "azure.identity.1.14.0.nupkg.sha512"
+      "sha512": "sha512-01KY5RC7XHwh3azcZ46GMhVR7ajRsRPFh5ivVuvs7N9nVAYK+9/g2eqXTjBneorm9PTYAUfmHvd1dIdmzBym3w==",
+      "path": "azure.identity/1.19.0",
+      "hashPath": "azure.identity.1.19.0.nupkg.sha512"
     },
     "Dapper.Oracle.StrongName/2.0.3": {
       "type": "package",
@@ -3675,12 +3702,12 @@
       "path": "microsoft.aspnetcore.signalr.protocols.newtonsoftjson/8.0.0",
       "hashPath": "microsoft.aspnetcore.signalr.protocols.newtonsoftjson.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Bcl.AsyncInterfaces/9.0.5": {
+    "Microsoft.Bcl.AsyncInterfaces/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eNQDjbtFj8kOLxbckCbn2JXTsnzK8+xkA4jg7NULO9jhIvlOSngC9BFzmiqVPpw1INQaP1pQ3YteY2XhfWNjtQ==",
-      "path": "microsoft.bcl.asyncinterfaces/9.0.5",
-      "hashPath": "microsoft.bcl.asyncinterfaces.9.0.5.nupkg.sha512"
+      "sha512": "sha512-hQB3Hq1LlF0NkGVNyZIvwIQIY3LM7Cw1oYjNiTvdNqmzzipVAWEK1c5sj2H5aFX0udnjgPLxSYKq2fupueS8ow==",
+      "path": "microsoft.bcl.asyncinterfaces/10.0.5",
+      "hashPath": "microsoft.bcl.asyncinterfaces.10.0.5.nupkg.sha512"
     },
     "Microsoft.Bcl.Cryptography/8.0.0": {
       "type": "package",
@@ -3815,12 +3842,12 @@
       "path": "microsoft.extensions.configuration/9.0.5",
       "hashPath": "microsoft.extensions.configuration.9.0.5.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Abstractions/9.0.5": {
+    "Microsoft.Extensions.Configuration.Abstractions/10.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ew0G6gIznnyAkbIa67wXspkDFcVektjN3xaDAfBDIPbWph+rbuGaaohFxUSGw28ht7wdcWtTtElKnzfkcDDbOQ==",
-      "path": "microsoft.extensions.configuration.abstractions/9.0.5",
-      "hashPath": "microsoft.extensions.configuration.abstractions.9.0.5.nupkg.sha512"
+      "sha512": "sha512-xVDHL0+SIgemfh95fTO9cGLe17TWv/ZP0n7m01z8X6pzt2DmQpucioWR/mYZA1sRlkWnkXzfl0JweLNWmE9WMg==",
+      "path": "microsoft.extensions.configuration.abstractions/10.0.3",
+      "hashPath": "microsoft.extensions.configuration.abstractions.10.0.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Binder/8.0.2": {
       "type": "package",
@@ -3850,19 +3877,19 @@
       "path": "microsoft.extensions.configuration.json/9.0.5",
       "hashPath": "microsoft.extensions.configuration.json.9.0.5.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection/9.0.3": {
+    "Microsoft.Extensions.DependencyInjection/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lDbxJpkl6X8KZGpkAxgrrthQ42YeiR0xjPp7KPx+sCPc3ZbpaIbjzd0QQ+9kDdK2RU2DOl3pc6tQyAgEZY3V0A==",
-      "path": "microsoft.extensions.dependencyinjection/9.0.3",
-      "hashPath": "microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512"
+      "sha512": "sha512-v1SVsowG6YE1YnHVGmLWz57YTRCQRx9pH5ebIESXfm5isI9gA3QaMyg/oMTzPpXYZwSAVDzYItGJKfmV+pqXkQ==",
+      "path": "microsoft.extensions.dependencyinjection/10.0.5",
+      "hashPath": "microsoft.extensions.dependencyinjection.10.0.5.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.3": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TfaHPSe39NyL2wxkisRxXK7xvHGZYBZ+dy3r+mqGvnxKgAPdHkMu3QMQZI4pquP6W5FIQBqs8FJpWV8ffCgDqQ==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.3",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512"
+      "sha512": "sha512-g41l/30G3K4B/d/L8kjux0+30e27c8D0FVQ/PFCpbekgfDpj9mnDhieP67EqXWvl1EWNeZh2rpR4F5B/jcDOHA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.9",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.10.0.9.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection.AutoActivation/8.10.0": {
       "type": "package",
@@ -3885,12 +3912,12 @@
       "path": "microsoft.extensions.diagnostics/8.0.1",
       "hashPath": "microsoft.extensions.diagnostics.8.0.1.nupkg.sha512"
     },
-    "Microsoft.Extensions.Diagnostics.Abstractions/8.0.1": {
+    "Microsoft.Extensions.Diagnostics.Abstractions/10.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-elH2vmwNmsXuKmUeMQ4YW9ldXiF+gSGDgg1vORksob5POnpaI6caj1Hu8zaYbEuibhqCoWg0YRWDazBY3zjBfg==",
-      "path": "microsoft.extensions.diagnostics.abstractions/8.0.1",
-      "hashPath": "microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512"
+      "sha512": "sha512-mQiTzAj7PIJ2A9YXR5QhgulS1fTWhmQc3ckd1Mrf3hKW07d03fBDqx8vVaFw+cRTebDOeB6pNqdWdnRxsi1hBA==",
+      "path": "microsoft.extensions.diagnostics.abstractions/10.0.3",
+      "hashPath": "microsoft.extensions.diagnostics.abstractions.10.0.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Diagnostics.ExceptionSummarization/8.10.0": {
       "type": "package",
@@ -3906,12 +3933,12 @@
       "path": "microsoft.extensions.features/8.0.0",
       "hashPath": "microsoft.extensions.features.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/9.0.5": {
+    "Microsoft.Extensions.FileProviders.Abstractions/10.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LLm+e8lvD+jOI+blHRSxPqywPaohOTNcVzQv548R1UpkEiNB2D+zf3RrqxBdB1LDPicRMTnfiaKJovxF8oX1bQ==",
-      "path": "microsoft.extensions.fileproviders.abstractions/9.0.5",
-      "hashPath": "microsoft.extensions.fileproviders.abstractions.9.0.5.nupkg.sha512"
+      "sha512": "sha512-4TD9AXDRsipTmaemwnjt/DM5Ri0de2JzHQhvZ4woBTjUtL4XrPNsMrOk5oiLJAx1gTrE6pOIhxv+lEde5F6CZA==",
+      "path": "microsoft.extensions.fileproviders.abstractions/10.0.3",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.10.0.3.nupkg.sha512"
     },
     "Microsoft.Extensions.FileProviders.Physical/9.0.5": {
       "type": "package",
@@ -3927,12 +3954,12 @@
       "path": "microsoft.extensions.filesystemglobbing/9.0.5",
       "hashPath": "microsoft.extensions.filesystemglobbing.9.0.5.nupkg.sha512"
     },
-    "Microsoft.Extensions.Hosting.Abstractions/8.0.1": {
+    "Microsoft.Extensions.Hosting.Abstractions/10.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nHwq9aPBdBPYXPti6wYEEfgXddfBrYC+CQLn+qISiwQq5tpfaqDZSKOJNxoe9rfQxGf1c+2wC/qWFe1QYJPYqw==",
-      "path": "microsoft.extensions.hosting.abstractions/8.0.1",
-      "hashPath": "microsoft.extensions.hosting.abstractions.8.0.1.nupkg.sha512"
+      "sha512": "sha512-GdMpC10Jf6poxSvUJ4lgYpJ5F/kJeaAoJmrPufjBoPYyCTKKY5Dyl0rZA+LBNvFqTq1cZa/lhlptlUhNvU6xrg==",
+      "path": "microsoft.extensions.hosting.abstractions/10.0.3",
+      "hashPath": "microsoft.extensions.hosting.abstractions.10.0.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Http/8.0.1": {
       "type": "package",
@@ -3969,12 +3996,12 @@
       "path": "microsoft.extensions.logging/9.0.2",
       "hashPath": "microsoft.extensions.logging.9.0.2.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/9.0.2": {
+    "Microsoft.Extensions.Logging.Abstractions/10.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dV9s2Lamc8jSaqhl2BQSPn/AryDIH2sSbQUyLitLXV0ROmsb+SROnn2cH939JFbsNrnf3mIM3GNRKT7P0ldwLg==",
-      "path": "microsoft.extensions.logging.abstractions/9.0.2",
-      "hashPath": "microsoft.extensions.logging.abstractions.9.0.2.nupkg.sha512"
+      "sha512": "sha512-lxl0WLk7ROgBFAsjcOYjQ8/DVK+VMszxGBzUhgtQmAsTNldLL5pk9NG/cWTsXHq0lUhUEAtZkEE7jOGOA8bGKQ==",
+      "path": "microsoft.extensions.logging.abstractions/10.0.3",
+      "hashPath": "microsoft.extensions.logging.abstractions.10.0.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging.Configuration/8.0.1": {
       "type": "package",
@@ -3990,12 +4017,12 @@
       "path": "microsoft.extensions.objectpool/8.0.10",
       "hashPath": "microsoft.extensions.objectpool.8.0.10.nupkg.sha512"
     },
-    "Microsoft.Extensions.Options/9.0.2": {
+    "Microsoft.Extensions.Options/10.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zr98z+AN8+isdmDmQRuEJ/DAKZGUTHmdv3t0ZzjHvNqvA44nAgkXE9kYtfoN6581iALChhVaSw2Owt+Z2lVbkQ==",
-      "path": "microsoft.extensions.options/9.0.2",
-      "hashPath": "microsoft.extensions.options.9.0.2.nupkg.sha512"
+      "sha512": "sha512-hU6WzGTPvPoLA2ng1ILvWQb3g0qORdlHNsxI8IcPLumJb3suimYUl+bbDzdo1V4KFsvVhnMWzysHpKbZaoDQPQ==",
+      "path": "microsoft.extensions.options/10.0.3",
+      "hashPath": "microsoft.extensions.options.10.0.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
       "type": "package",
@@ -4004,12 +4031,12 @@
       "path": "microsoft.extensions.options.configurationextensions/8.0.0",
       "hashPath": "microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/9.0.5": {
+    "Microsoft.Extensions.Primitives/10.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-b4OAv1qE1C9aM+ShWJu3rlo/WjDwa/I30aIPXqDWSKXTtKl1Wwh6BZn+glH5HndGVVn3C6ZAPQj5nv7/7HJNBQ==",
-      "path": "microsoft.extensions.primitives/9.0.5",
-      "hashPath": "microsoft.extensions.primitives.9.0.5.nupkg.sha512"
+      "sha512": "sha512-GEcpTwo7sUoLGGNTqV1FZEuL+tTD9m81NX/mh099dqGNna07/UGZShKQNZRw4hv6nlliSUwYQgSYc7OR99Jufg==",
+      "path": "microsoft.extensions.primitives/10.0.3",
+      "hashPath": "microsoft.extensions.primitives.10.0.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Resilience/8.10.0": {
       "type": "package",
@@ -4032,19 +4059,19 @@
       "path": "microsoft.extensions.telemetry.abstractions/8.10.0",
       "hashPath": "microsoft.extensions.telemetry.abstractions.8.10.0.nupkg.sha512"
     },
-    "Microsoft.Identity.Client/4.72.1": {
+    "Microsoft.Identity.Client/4.83.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-U3FbgYeKbU34zP17vi4xO70U5WiVO4GcqHbGwfqzAGJMQQfzkdEK5Ue69mI1tWj7Ft2lbJJ9Wsho9/6Jn5OKqQ==",
-      "path": "microsoft.identity.client/4.72.1",
-      "hashPath": "microsoft.identity.client.4.72.1.nupkg.sha512"
+      "sha512": "sha512-jOLIrZ3cynoqHLLO1cXplFFabrhrMEYs/EuKHvmCyrOm1axqiVFT6nCSnHxk7w5+d2BeQfCdM12Yf/0X7OeS1g==",
+      "path": "microsoft.identity.client/4.83.1",
+      "hashPath": "microsoft.identity.client.4.83.1.nupkg.sha512"
     },
-    "Microsoft.Identity.Client.Extensions.Msal/4.71.1": {
+    "Microsoft.Identity.Client.Extensions.Msal/4.83.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-PGOHaoQhKBKnXy1kfW+Gu9/rxStKsqR+UZKeVv4XAsATdzmfj9y9kkUOftIjVFvxP3oh2Sk7v65ylS0K/qYADA==",
-      "path": "microsoft.identity.client.extensions.msal/4.71.1",
-      "hashPath": "microsoft.identity.client.extensions.msal.4.71.1.nupkg.sha512"
+      "sha512": "sha512-I3k4J4Hj4KbLEFanjeUzzDOVecukETaTgEkJ7h2pP/Yazs6SLp6TVUTo/Eo+ptPXMwvc+iX7rBFtMSUrA7R+Mg==",
+      "path": "microsoft.identity.client.extensions.msal/4.83.1",
+      "hashPath": "microsoft.identity.client.extensions.msal.4.83.1.nupkg.sha512"
     },
     "Microsoft.IdentityModel.Abstractions/8.14.0": {
       "type": "package",
@@ -4466,54 +4493,54 @@
       "path": "optimajet.sqlkata.execution/1.0.0",
       "hashPath": "optimajet.sqlkata.execution.1.0.0.nupkg.sha512"
     },
-    "OptimaJet.Workflow.Api/20.0.8": {
+    "OptimaJet.Workflow.Api/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UE/Dzq+1zAji73ezWeQfY+C9zlgN/U0u1Ygk97W2BhSG6XLaeuqnRJQIkaildi6IYTkTS4ZhMp0QukHcFeY15g==",
-      "path": "optimajet.workflow.api/20.0.8",
-      "hashPath": "optimajet.workflow.api.20.0.8.nupkg.sha512"
+      "sha512": "sha512-B9b3C8w4iTkMlOh+SLkDjOcIQLPpveZ/NGUvOuwvIELs/c8EA6VIU/YqAGCd3K3cuDN2cbGxPZhWywJtKYNkmg==",
+      "path": "optimajet.workflow.api/21.1.2",
+      "hashPath": "optimajet.workflow.api.21.1.2.nupkg.sha512"
     },
-    "OptimaJet.Workflow.Api.Mongo/20.0.8": {
+    "OptimaJet.Workflow.Api.Mongo/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+BdQ5p02ZZufR8DH6AczMJ222GuQ4ua4rTm4FW2phnLQ2xfpq1+8gm0HdPRR8ulnDxuuws8quPKOpAFKY5Sk1Q==",
-      "path": "optimajet.workflow.api.mongo/20.0.8",
-      "hashPath": "optimajet.workflow.api.mongo.20.0.8.nupkg.sha512"
+      "sha512": "sha512-TtUEucx0s6dmJ4AbbdIpqiEaJkBljps/NXiwxZeYtK7ReXwvY5yuztogZ/mzpGYbjFVz8l6TLLsGsnkkaP0imw==",
+      "path": "optimajet.workflow.api.mongo/21.1.2",
+      "hashPath": "optimajet.workflow.api.mongo.21.1.2.nupkg.sha512"
     },
-    "OptimaJet.Workflow.Api.Mssql/20.0.8": {
+    "OptimaJet.Workflow.Api.Mssql/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kg89XBNakFMqey9whuBFM2ydX97gVjT4MDg8LkfpvpFFE29C4VyuvGFOj18+EUR4noESRyn3aLWnqLJYZ+KBBA==",
-      "path": "optimajet.workflow.api.mssql/20.0.8",
-      "hashPath": "optimajet.workflow.api.mssql.20.0.8.nupkg.sha512"
+      "sha512": "sha512-UecD4XAL7PnLqWuzp9ZwDJ10wkHtblUNcyu2LUNLB9hmq08DmLvJ8mLEQVJRxEqNYgYml0RyqHWKmlCNaZP3+g==",
+      "path": "optimajet.workflow.api.mssql/21.1.2",
+      "hashPath": "optimajet.workflow.api.mssql.21.1.2.nupkg.sha512"
     },
-    "OptimaJet.Workflow.Api.Mysql/20.0.8": {
+    "OptimaJet.Workflow.Api.Mysql/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cmxPdKkxBzbltAx9STR/EYi1rh0xHiQj83THhDYf7Z/+/hZMJxEG1hBWzjrRhQPXKwtpIkobVggor6GgbQ3NUg==",
-      "path": "optimajet.workflow.api.mysql/20.0.8",
-      "hashPath": "optimajet.workflow.api.mysql.20.0.8.nupkg.sha512"
+      "sha512": "sha512-TApDwTtgZH4usivZjXdji+uwlXhVU54nT+Vu97RRP+QSxejjm21yyED1AkrwAdR2soMNJI+bHgy3PMJehk7z+w==",
+      "path": "optimajet.workflow.api.mysql/21.1.2",
+      "hashPath": "optimajet.workflow.api.mysql.21.1.2.nupkg.sha512"
     },
-    "OptimaJet.Workflow.Api.Oracle/20.0.8": {
+    "OptimaJet.Workflow.Api.Oracle/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1k0VcYyqVhE6SI0AjV9I8kJ5WX41abEhnd8DXV6fBWMdBQjb0Zk4e1zhx5Rk1pazpVxYHhrvW745UvDHxcDT7w==",
-      "path": "optimajet.workflow.api.oracle/20.0.8",
-      "hashPath": "optimajet.workflow.api.oracle.20.0.8.nupkg.sha512"
+      "sha512": "sha512-w8bKBvAUALCwBlu5DRURMMVxKLAsCBmPzPqhwSHuaJCo1yzUgNhS96F16fR2QAFmlfPGrlsaaGHt3m7XIDvjfA==",
+      "path": "optimajet.workflow.api.oracle/21.1.2",
+      "hashPath": "optimajet.workflow.api.oracle.21.1.2.nupkg.sha512"
     },
-    "OptimaJet.Workflow.Api.Postgres/20.0.8": {
+    "OptimaJet.Workflow.Api.Postgres/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2WKF50Pjt8iJTViREzIZwytc+1HlBF3kMjMakFsnWIpFHQuQEU39Aht5w587M3rMdbDRXTcY/FvJUs2iQjvPkg==",
-      "path": "optimajet.workflow.api.postgres/20.0.8",
-      "hashPath": "optimajet.workflow.api.postgres.20.0.8.nupkg.sha512"
+      "sha512": "sha512-JzAijiObyXzHtkq3tDB0ut4DROBtYmW/iunWQlhMx6KQHq/yXigEOYEziit6pgdothTLBR4pbxZIlsw2M7CMTQ==",
+      "path": "optimajet.workflow.api.postgres/21.1.2",
+      "hashPath": "optimajet.workflow.api.postgres.21.1.2.nupkg.sha512"
     },
-    "OptimaJet.Workflow.Api.Sql/20.0.8": {
+    "OptimaJet.Workflow.Api.Sql/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iYv1lTLfO6ntmmoqsRsmz6oVtctuD0GiLMtKN8QD0R38d4vQnGI/8NvScd2w/XfIyp2dWNScjGXrX5pUuNjnbQ==",
-      "path": "optimajet.workflow.api.sql/20.0.8",
-      "hashPath": "optimajet.workflow.api.sql.20.0.8.nupkg.sha512"
+      "sha512": "sha512-JNEIXShITcwLyr/MW40vo1GjXoyAMkoi1Mirf6JVB7CPq3FaIn8ew9gbU6hwTfD+gCWc7vrRgJxH/TRRGIIEUw==",
+      "path": "optimajet.workflow.api.sql/21.1.2",
+      "hashPath": "optimajet.workflow.api.sql.21.1.2.nupkg.sha512"
     },
     "Oracle.ManagedDataAccess.Core/3.21.100": {
       "type": "package",
@@ -4753,12 +4780,12 @@
       "path": "serilog.sinks.periodicbatching/5.0.0",
       "hashPath": "serilog.sinks.periodicbatching.5.0.0.nupkg.sha512"
     },
-    "SharpCompress/0.30.1": {
+    "SharpCompress/0.48.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XqD4TpfyYGa7QTPzaGlMVbcecKnXy4YmYLDWrU+JIj7IuRNl7DH2END+Ll7ekWIY8o3dAMWLFDE1xdhfIWD1nw==",
-      "path": "sharpcompress/0.30.1",
-      "hashPath": "sharpcompress.0.30.1.nupkg.sha512"
+      "sha512": "sha512-6k0Sa9gf85Sz9Npy7jnn5UPerejrAa3FxU9Gq5T6PwFWHUhUIdF903TjPiJtrYjXFJsXbnccaWSNMHzEg27DwQ==",
+      "path": "sharpcompress/0.48.0",
+      "hashPath": "sharpcompress.0.48.0.nupkg.sha512"
     },
     "SharpZipLib/1.4.2": {
       "type": "package",
@@ -4767,12 +4794,12 @@
       "path": "sharpziplib/1.4.2",
       "hashPath": "sharpziplib.1.4.2.nupkg.sha512"
     },
-    "Snappier/1.0.0": {
+    "Snappier/1.3.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-rFtK2KEI9hIe8gtx3a0YDXdHOpedIf9wYCEYtBEmtlyiWVX3XlCNV03JrmmAi/Cdfn7dxK+k0sjjcLv4fpHnqA==",
-      "path": "snappier/1.0.0",
-      "hashPath": "snappier.1.0.0.nupkg.sha512"
+      "sha512": "sha512-DOdDQiO8YZ5rBtVLY+6CmR1yp9WYoJRgEEktPBrR0tEj9QO2djA/zv0O3DX0OZpEAfosbY8pytQ9tQUogwQsEA==",
+      "path": "snappier/1.3.1",
+      "hashPath": "snappier.1.3.1.nupkg.sha512"
     },
     "SSH.NET/2020.0.2": {
       "type": "package",
@@ -4795,12 +4822,12 @@
       "path": "system.buffers/4.5.1",
       "hashPath": "system.buffers.4.5.1.nupkg.sha512"
     },
-    "System.ClientModel/1.4.1": {
+    "System.ClientModel/1.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MY7eFGKp+Hu7Ciub8wigQ0odGrkml4eTjUy8d5Bu2eGAVvm8Qskkq+YuXiiS5wMJGq7iSvqseV4skd5WxTUdDA==",
-      "path": "system.clientmodel/1.4.1",
-      "hashPath": "system.clientmodel.1.4.1.nupkg.sha512"
+      "sha512": "sha512-1wdwKtMMMEFEYsxJmtrOd3G+7zVOVO3MlVZAsbKv9H0PnIx6J27fYAarMn0eQS0vKJPQL018DOb7YRK1O97p0A==",
+      "path": "system.clientmodel/1.9.0",
+      "hashPath": "system.clientmodel.1.9.0.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",
@@ -4844,12 +4871,12 @@
       "path": "system.componentmodel.annotations/5.0.0",
       "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
     },
-    "System.Configuration.ConfigurationManager/8.0.1": {
+    "System.Configuration.ConfigurationManager/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gPYFPDyohW2gXNhdQRSjtmeS6FymL2crg4Sral1wtvEJ7DUqFCDWDVbbLobASbzxfic8U1hQEdC7hmg9LHncMw==",
-      "path": "system.configuration.configurationmanager/8.0.1",
-      "hashPath": "system.configuration.configurationmanager.8.0.1.nupkg.sha512"
+      "sha512": "sha512-9UHU7hldEOVgcOHUX7Pa+owDfpzhW+a1gshEvyknAoDA++G6FV+N1cPoUbtsXEO7GgPErGSg8MHrI/YqrLoiGA==",
+      "path": "system.configuration.configurationmanager/10.0.5",
+      "hashPath": "system.configuration.configurationmanager.10.0.5.nupkg.sha512"
     },
     "System.Console/4.3.0": {
       "type": "package",
@@ -4865,19 +4892,19 @@
       "path": "system.diagnostics.debug/4.3.0",
       "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
     },
-    "System.Diagnostics.DiagnosticSource/9.0.2": {
+    "System.Diagnostics.DiagnosticSource/10.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-z5CMQNLzk8UKnTEHRKb4nq03CCDWBMEF2gfP3oPKZn4F8wip6LFZCP5rF90DREHqdNddScIGAfszXJSjh4drSw==",
-      "path": "system.diagnostics.diagnosticsource/9.0.2",
-      "hashPath": "system.diagnostics.diagnosticsource.9.0.2.nupkg.sha512"
+      "sha512": "sha512-IuZXyF3K5X+mCsBKIQ87Cn/V4Nyb39vyCbzfH/AkoneSWNV/ExGQ/I0m4CEaVAeFh9fW6kp2NVObkmevd1Ys7A==",
+      "path": "system.diagnostics.diagnosticsource/10.0.3",
+      "hashPath": "system.diagnostics.diagnosticsource.10.0.3.nupkg.sha512"
     },
-    "System.Diagnostics.EventLog/8.0.1": {
+    "System.Diagnostics.EventLog/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-n1ZP7NM2Gkn/MgD8+eOT5MulMj6wfeQMNS2Pizvq5GHCZfjlFMXV2irQlQmJhwA2VABC57M0auudO89Iu2uRLg==",
-      "path": "system.diagnostics.eventlog/8.0.1",
-      "hashPath": "system.diagnostics.eventlog.8.0.1.nupkg.sha512"
+      "sha512": "sha512-wugvy+pBVzjQEnRs9wMTWwoaeNFX3hsaHeVHFDIvJSWXp7wfmNWu3mxAwBIE6pyW+g6+rHa1Of5fTzb0QVqUTA==",
+      "path": "system.diagnostics.eventlog/10.0.5",
+      "hashPath": "system.diagnostics.eventlog.10.0.5.nupkg.sha512"
     },
     "System.Diagnostics.PerformanceCounter/6.0.1": {
       "type": "package",
@@ -4963,12 +4990,12 @@
       "path": "system.io.filesystem.primitives/4.3.0",
       "hashPath": "system.io.filesystem.primitives.4.3.0.nupkg.sha512"
     },
-    "System.IO.Pipelines/9.0.5": {
+    "System.IO.Pipelines/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5WXo+3MGcnYn54+1ojf+kRzKq1Q6sDUnovujNJ2ky1nl1/kP3+PMil9LPbFvZ2mkhvAGmQcY07G2sfHat/v0Fw==",
-      "path": "system.io.pipelines/9.0.5",
-      "hashPath": "system.io.pipelines.9.0.5.nupkg.sha512"
+      "sha512": "sha512-8/ZHN/j2y1t+7McdCf1wXku2/c7wtrGLz3WQabIoPuLAn3bHDWT6YOJYreJq8sCMPSo6c8iVYXUdLlFGX5PEqw==",
+      "path": "system.io.pipelines/10.0.5",
+      "hashPath": "system.io.pipelines.10.0.5.nupkg.sha512"
     },
     "System.Linq/4.3.0": {
       "type": "package",
@@ -4984,12 +5011,12 @@
       "path": "system.memory/4.5.5",
       "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
-    "System.Memory.Data/6.0.1": {
+    "System.Memory.Data/10.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yliDgLh9S9Mcy5hBIdZmX6yphYIW3NH+3HN1kV1m7V1e0s7LNTw/tHNjJP4U9nSMEgl3w1TzYv/KA1Tg9NYy6w==",
-      "path": "system.memory.data/6.0.1",
-      "hashPath": "system.memory.data.6.0.1.nupkg.sha512"
+      "sha512": "sha512-BZC4mhdL569AXV56ep9YO6ShjhxFXGP7SwVX0Bc/e0dJPWnS6aBEXZJXqh64RVx8HquqWHkJUINBydLRQ1yq0g==",
+      "path": "system.memory.data/10.0.1",
+      "hashPath": "system.memory.data.10.0.1.nupkg.sha512"
     },
     "System.Net.NameResolution/4.3.0": {
       "type": "package",
@@ -5054,12 +5081,12 @@
       "path": "system.runtime/4.3.1",
       "hashPath": "system.runtime.4.3.1.nupkg.sha512"
     },
-    "System.Runtime.Caching/8.0.1": {
+    "System.Runtime.Caching/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tdl7Q47P09UpRu0C/OQsGJU6GacBzzk4vfp5My9rodD+BchrxmajORnTthH8RxPUTPrIoVDJmLyvJcGxB267nQ==",
-      "path": "system.runtime.caching/8.0.1",
-      "hashPath": "system.runtime.caching.8.0.1.nupkg.sha512"
+      "sha512": "sha512-bEwpkbmj1Ep8ioRI7M8eoPpgp6rHXHu1D+e2lCXqDYBChPOKA09TwEbIkzZk+Dwueh4kVZOXOWpzMY/LsgND/g==",
+      "path": "system.runtime.caching/10.0.5",
+      "hashPath": "system.runtime.caching.10.0.5.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/5.0.0": {
       "type": "package",
@@ -5159,12 +5186,12 @@
       "path": "system.security.cryptography.primitives/4.3.0",
       "hashPath": "system.security.cryptography.primitives.4.3.0.nupkg.sha512"
     },
-    "System.Security.Cryptography.ProtectedData/8.0.0": {
+    "System.Security.Cryptography.ProtectedData/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+TUFINV2q2ifyXauQXRwy4CiBhqvDEDZeVJU7qfxya4aRYOKzVBpN+4acx25VcPB9ywUN6C0n8drWl110PhZEg==",
-      "path": "system.security.cryptography.protecteddata/8.0.0",
-      "hashPath": "system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+      "sha512": "sha512-kxR4O/8o32eNN3m4qbLe3UifYqeyEpallCyVAsLvL5ZFJVyT3JCb+9du/WHfC09VyJh1Q+p/Gd4+AwM7Rz4acg==",
+      "path": "system.security.cryptography.protecteddata/10.0.5",
+      "hashPath": "system.security.cryptography.protecteddata.10.0.5.nupkg.sha512"
     },
     "System.Security.Cryptography.X509Certificates/4.3.0": {
       "type": "package",
@@ -5215,19 +5242,19 @@
       "path": "system.text.encoding.extensions/4.3.0",
       "hashPath": "system.text.encoding.extensions.4.3.0.nupkg.sha512"
     },
-    "System.Text.Encodings.Web/9.0.5": {
+    "System.Text.Encodings.Web/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HJPmqP2FsE+WVUUlTsZ4IFRSyzw40yz0ubiTnsaqm+Xo5fFZhVRvx6Zn8tLXj92/6pbre6OA4QL2A2vnCSKxJA==",
-      "path": "system.text.encodings.web/9.0.5",
-      "hashPath": "system.text.encodings.web.9.0.5.nupkg.sha512"
+      "sha512": "sha512-opvD/nKTzGKA7GVntZ9L823kN6IxgHQfuxY+VI9gv8VE1Y7CSKoi/QS1EYDQiA63MqtZsD7X6zkISd2ZQJohTQ==",
+      "path": "system.text.encodings.web/10.0.5",
+      "hashPath": "system.text.encodings.web.10.0.5.nupkg.sha512"
     },
-    "System.Text.Json/9.0.5": {
+    "System.Text.Json/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-rnP61ZfloTgPQPe7ecr36loNiGX3g1PocxlKHdY/FUpDSsExKkTxpMAlB4X35wNEPr1X7mkYZuQvW3Lhxmu7KA==",
-      "path": "system.text.json/9.0.5",
-      "hashPath": "system.text.json.9.0.5.nupkg.sha512"
+      "sha512": "sha512-vW2zhkWziyfhoSXNf42mTWyilw+vfwBGOsODDsHSFtOIY6LCgfRVUyaAilLEL4Kc1fzhaxcep5pS0VWYPSDW0w==",
+      "path": "system.text.json/10.0.5",
+      "hashPath": "system.text.json.10.0.5.nupkg.sha512"
     },
     "System.Text.RegularExpressions/4.3.1": {
       "type": "package",
@@ -5313,75 +5340,75 @@
       "path": "thomaslevesque.weakevent/4.1.0",
       "hashPath": "thomaslevesque.weakevent.4.1.0.nupkg.sha512"
     },
-    "WorkflowEngine.NETCore-BpmnPlugin/20.0.8": {
+    "WorkflowEngine.NETCore-BpmnPlugin/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-J3S6+KMrmGb1uQWRKXrNxazzTWESn4zMAijcaWNYUgEAANOueFHH1DvaEcC/6vEyPjNCRiP+JB0frg1BjiODmA==",
-      "path": "workflowengine.netcore-bpmnplugin/20.0.8",
-      "hashPath": "workflowengine.netcore-bpmnplugin.20.0.8.nupkg.sha512"
+      "sha512": "sha512-zwrXTbu/+xtBefsM5eAw3hOm0foyvZmgPBg5EnS+7Ej/E3G5P2GnUMsb4Cm7lAXMiXnUF3pQeQRmtuclyTVqXg==",
+      "path": "workflowengine.netcore-bpmnplugin/21.1.2",
+      "hashPath": "workflowengine.netcore-bpmnplugin.21.1.2.nupkg.sha512"
     },
-    "WorkflowEngine.NETCore-Core/20.0.8": {
+    "WorkflowEngine.NETCore-Core/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-J0qBswD1he+V7ms3vGmvedB22Zgg2d+trX3F1zUdlOtDFQoB/eGLSlPvcXQHhJh+dn50y/OH3v3cQFnUVJByvQ==",
-      "path": "workflowengine.netcore-core/20.0.8",
-      "hashPath": "workflowengine.netcore-core.20.0.8.nupkg.sha512"
+      "sha512": "sha512-zTCNhsO+8lIns05Q23uK6FDJw6S4WQNMEhiBHCDLbTw5AkX4G/zGz++hsEIj1C4eFoAgVHkLmIqbTp8xArYzUA==",
+      "path": "workflowengine.netcore-core/21.1.2",
+      "hashPath": "workflowengine.netcore-core.21.1.2.nupkg.sha512"
     },
-    "WorkflowEngine.NETCore-FilesPlugin/20.0.8": {
+    "WorkflowEngine.NETCore-FilesPlugin/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9vvw6WCtd0/lBfWUcW6fKYGoRsl0BUIlZWi8mOKx/SC1YgpRerF6antIVYXIsjiAyshr4pgPv2k0sRQLW2CVQA==",
-      "path": "workflowengine.netcore-filesplugin/20.0.8",
-      "hashPath": "workflowengine.netcore-filesplugin.20.0.8.nupkg.sha512"
+      "sha512": "sha512-lgZdVqYr4uHuXaeUNQ17LuMxnn/zbDy/7iNuOJK9BXRoP8fDF0JKteUFnIivSDKFBBvM03gEwjgmXOYMXeYvaw==",
+      "path": "workflowengine.netcore-filesplugin/21.1.2",
+      "hashPath": "workflowengine.netcore-filesplugin.21.1.2.nupkg.sha512"
     },
-    "WorkflowEngine.NETCore-Migrator/20.0.8": {
+    "WorkflowEngine.NETCore-Migrator/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5HGaHBar3wLYiPg513Mpqk1qm94e+Z9DJfqhdKpGcbUyxyrK7KvzamKziDYgSzsD7ZV4C7X3NMJdApWpmYRAUw==",
-      "path": "workflowengine.netcore-migrator/20.0.8",
-      "hashPath": "workflowengine.netcore-migrator.20.0.8.nupkg.sha512"
+      "sha512": "sha512-c2fRUAQHhEFJb42yKXAYYE0q5sQcEWi+PDouQGIHVW/JPfbYKeXQB9gWvkrtCuFTZcZtM1gz5J2FZCVPKlf6cg==",
+      "path": "workflowengine.netcore-migrator/21.1.2",
+      "hashPath": "workflowengine.netcore-migrator.21.1.2.nupkg.sha512"
     },
-    "WorkflowEngine.NETCore-ProviderForMongoDB/20.0.8": {
+    "WorkflowEngine.NETCore-ProviderForMongoDB/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uDc124ZCN9hpdfNfK2l5nCg/v65ZtKmBGazoAy3h4S5bnnuNSYNBYrCngIMiuWTj8biEaKlbnnswyOfH5rSxzA==",
-      "path": "workflowengine.netcore-providerformongodb/20.0.8",
-      "hashPath": "workflowengine.netcore-providerformongodb.20.0.8.nupkg.sha512"
+      "sha512": "sha512-vGiX7H8A5B3O3g6igZPw+bkoBY72qWAjrwB7hFAo+QtJ5UCppjKm3ssRuDFOKOzE7LlGINJH6zCrPlQ3f5HUZA==",
+      "path": "workflowengine.netcore-providerformongodb/21.1.2",
+      "hashPath": "workflowengine.netcore-providerformongodb.21.1.2.nupkg.sha512"
     },
-    "WorkflowEngine.NETCore-ProviderForMSSQL/20.0.8": {
+    "WorkflowEngine.NETCore-ProviderForMSSQL/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZLhNfeqh8gtu72vujxCw8T3CfS/eh9kbrJSTi3hrOpWK13/DCBrioZ3+1fGo/WNBg1VsmAETyUk3lhfO1EyScQ==",
-      "path": "workflowengine.netcore-providerformssql/20.0.8",
-      "hashPath": "workflowengine.netcore-providerformssql.20.0.8.nupkg.sha512"
+      "sha512": "sha512-jkOfL6Jl8HYu4Ju3vIHwwOMtcD5Bn5hOQVqbK3AmzOJKFyjonuQGZ2N91WQjv0cZzmnXB5BL8zV4D8lrJm7ijg==",
+      "path": "workflowengine.netcore-providerformssql/21.1.2",
+      "hashPath": "workflowengine.netcore-providerformssql.21.1.2.nupkg.sha512"
     },
-    "WorkflowEngine.NETCore-ProviderForMySQL/20.0.8": {
+    "WorkflowEngine.NETCore-ProviderForMySQL/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tTr6nPHeb984zpA9+uVl0Mszpjq+u3ujS573H3HfgUylv/6D4HjG2XKrr4UFsJgMv9RRudmDn4tX2UPk+Xwh5Q==",
-      "path": "workflowengine.netcore-providerformysql/20.0.8",
-      "hashPath": "workflowengine.netcore-providerformysql.20.0.8.nupkg.sha512"
+      "sha512": "sha512-XjTzruZpoHHNXXec2ISZgvB5Tkp27SxYtPv6GYjrb8oo1OnMIPsXNFUNOAifo4/PAUIRrBG5KAVeYgALxi8b3w==",
+      "path": "workflowengine.netcore-providerformysql/21.1.2",
+      "hashPath": "workflowengine.netcore-providerformysql.21.1.2.nupkg.sha512"
     },
-    "WorkflowEngine.NETCore-ProviderForOracle/20.0.8": {
+    "WorkflowEngine.NETCore-ProviderForOracle/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wmYrAc5fBbSKhgoiicVon1Xzzf3+UWp+ACv5biMClKDlUE3JHFkhGDvcFBczKNwJ06Iyu2fS4Ab7hrvS1cMlZA==",
-      "path": "workflowengine.netcore-providerfororacle/20.0.8",
-      "hashPath": "workflowengine.netcore-providerfororacle.20.0.8.nupkg.sha512"
+      "sha512": "sha512-qD55L2/oeQ7Vo/GPxbvQ1h8XDGMBv4V4XMBJnDfvu8Ep8P7PBC+9N4s+R+DZ2vdcq1W/PqNdQfRviRdcibbYrQ==",
+      "path": "workflowengine.netcore-providerfororacle/21.1.2",
+      "hashPath": "workflowengine.netcore-providerfororacle.21.1.2.nupkg.sha512"
     },
-    "WorkflowEngine.NETCore-ProviderForPostgreSQL/20.0.8": {
+    "WorkflowEngine.NETCore-ProviderForPostgreSQL/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-V+4hdbGNPubjZm4rn3NR4WTa4AqpbrWzDkKZXSQebMjWUpiFOTcSoQgRoKzW3A5HciGTEGE0DHGhKdTl/UpZ9A==",
-      "path": "workflowengine.netcore-providerforpostgresql/20.0.8",
-      "hashPath": "workflowengine.netcore-providerforpostgresql.20.0.8.nupkg.sha512"
+      "sha512": "sha512-8nEV1Odh+QwZ6hcgeMm/pSJiVGTWT/GkqOJYm+zXBj8HaI8cliP7JcEVMLh6yNsT55gCVslc1pEZbssxGCqMEQ==",
+      "path": "workflowengine.netcore-providerforpostgresql/21.1.2",
+      "hashPath": "workflowengine.netcore-providerforpostgresql.21.1.2.nupkg.sha512"
     },
-    "WorkflowEngine.NETCore-RealTimeTrackingPlugin/20.0.8": {
+    "WorkflowEngine.NETCore-RealTimeTrackingPlugin/21.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9+uywQT32uMHYEcrTzCbAgJEgum/6gwgPlCGYU+4OyMyOAYr/BuWVGr0lqO+8TaGw//wddV28V152xUZOS0/Hw==",
-      "path": "workflowengine.netcore-realtimetrackingplugin/20.0.8",
-      "hashPath": "workflowengine.netcore-realtimetrackingplugin.20.0.8.nupkg.sha512"
+      "sha512": "sha512-4WiAhd04YkV7CSVshz7aUyYBdJnk14V/BT4p7xc/BmFaKF/NZu8WkMx9KDNw196cHzm/HDs0AxClIHOdVztrUw==",
+      "path": "workflowengine.netcore-realtimetrackingplugin/21.1.2",
+      "hashPath": "workflowengine.netcore-realtimetrackingplugin.21.1.2.nupkg.sha512"
     },
     "ZstdSharp.Port/0.7.3": {
       "type": "package",
@@ -5390,57 +5417,57 @@
       "path": "zstdsharp.port/0.7.3",
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
     },
-    "OptimaJet.Logging/9.1.0": {
+    "OptimaJet.Logging/9.2.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OptimaJet.WorkflowServer.Migrations.MySql/9.1.0": {
+    "OptimaJet.WorkflowServer.Migrations.MySql/9.2.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OptimaJet.WorkflowServer.Migrations.Oracle/9.1.0": {
+    "OptimaJet.WorkflowServer.Migrations.Oracle/9.2.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OptimaJet.WorkflowServer.Migrations.PostgreSql/9.1.0": {
+    "OptimaJet.WorkflowServer.Migrations.PostgreSql/9.2.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OptimaJet.WorkflowServer.Migrations.SqlServer/9.1.0": {
+    "OptimaJet.WorkflowServer.Migrations.SqlServer/9.2.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "WorkflowEngine.NET-Server/9.1.0": {
+    "WorkflowEngine.NET-Server/9.2.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "OptimaJet.WorkflowServer/9.1.0.0": {
+    "OptimaJet.WorkflowServer/9.2.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "WorkflowServer.Migrator.MSSQL/9.1.0.0": {
+    "WorkflowServer.Migrator.MSSQL/9.2.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "WorkflowServer.Migrator.MySQL/9.1.0.0": {
+    "WorkflowServer.Migrator.MySQL/9.2.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "WorkflowServer.Migrator.Oracle/9.1.0.0": {
+    "WorkflowServer.Migrator.Oracle/9.2.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "WorkflowServer.Migrator.PostgreSQL/9.1.0.0": {
+    "WorkflowServer.Migrator.PostgreSQL/9.2.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
