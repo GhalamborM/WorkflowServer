@@ -1,1 +1,1 @@
-Workflow Server 9.2.0 - 22/06/2026
+Workflow Server 9.2.1 - 29/06/2026
